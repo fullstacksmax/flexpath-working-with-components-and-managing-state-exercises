@@ -41,6 +41,12 @@ Description:
 Explain how state changes in the `Counter` component cause re-rendering.
 
 
+when counter is increased or decreased React compares the current state and the previous state and 
+updates accordingly.  in this case only the {count} differs from the previous state and is updated accordingly
+either + or - 1
+
+
+
 
 Exercise 6: Avoiding Prop Drilling with Context
 
@@ -57,7 +63,9 @@ Exercise 7: Understanding React Context
 Description: 
 
 Discuss the benefits and drawbacks of using React `Context`.
-
+benefits of using context is that you can share context without passing props,
+however  it promotes information hiding and can cause re-rendering of unexpected
+components.
 
 
 Exercise 8: Using useEffect Hook
