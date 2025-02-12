@@ -115,7 +115,9 @@ Exercise 13: Debugging with React DevTools
 Description: 
 
 Explain how to use React DevTools to inspect components and their state.
-
+you can use the components menu of the react dev tools to see all the components rendered
+their children components and any parent components. These tools can also point you directly from the 
+component to the DOM that it returns or directly to the source code.
 
 
 Exercise 14: Diagnosing Performance Issues
@@ -124,6 +126,10 @@ Description:
 
 Explain how to use the React Profiler to identify and optimize slow components.
 
+using profiler you can take a snapshot of the browser and a graph showing the breakdown of each
+component being rendered will be displayed.  This breakdown will allow you to see how long each component 
+takes to render allowing you to identify bottlenecks or inefficient code.  It also allows you to see if
+components are unexpectedly re-rendering.
 
 
 Exercise 15: Integrating Next.js
